@@ -10,4 +10,8 @@ describe('fizzbuzz', () => {
         expect(() => fizzBuzz(101)).toThrow('The number must be between 1 and 100.');
     })
 
+    it('and outputs them as a string', () => {
+        expect(fizzBuzz(1)).toEqual('1');
+    })
+
 });
