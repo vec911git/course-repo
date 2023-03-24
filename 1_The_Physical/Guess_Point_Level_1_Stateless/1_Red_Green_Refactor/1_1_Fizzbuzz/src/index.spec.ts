@@ -17,7 +17,11 @@ describe('fizzbuzz', () => {
     it('but for multiples of three it returns “Fizz” instead of the number', () => {
         expect(fizzBuzz(3)).toEqual('Fizz');
         expect(fizzBuzz(6)).toEqual('Fizz');
-        expect(fizzBuzz(9)).toEqual('Fizz');
+    })
+
+    it('and for multiples of five it returns “Buzz.”', () => {
+        expect(fizzBuzz(5)).toEqual('Buzz.');
+        expect(fizzBuzz(10)).toEqual('Buzz.');
     })
 
 });
