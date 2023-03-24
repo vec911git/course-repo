@@ -14,4 +14,10 @@ describe('fizzbuzz', () => {
         expect(fizzBuzz(1)).toEqual('1');
     })
 
+    it('but for multiples of three it returns “Fizz” instead of the number', () => {
+        expect(fizzBuzz(3)).toEqual('Fizz');
+        expect(fizzBuzz(6)).toEqual('Fizz');
+        expect(fizzBuzz(9)).toEqual('Fizz');
+    })
+
 });
