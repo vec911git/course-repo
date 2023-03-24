@@ -18,7 +18,7 @@ describe('palindrome checker', () => {
         expect(isPalindrome('wow')).toBeTruthy();
     })
 
-    it('bill is not palindrome', () => {
+    it('bill is not a palindrome', () => {
         expect(isPalindrome('bill')).toBeFalsy();
     })
 
@@ -26,7 +26,11 @@ describe('palindrome checker', () => {
         expect(isPalindrome('Mom')).toBeTruthy();
     })
 
-    it('"Was It A Rat I Saw" is palindrome', () => {
+    it('"Was It A Rat I Saw" is a palindrome', () => {
         expect(isPalindrome('Was It A Rat I Saw')).toBeTruthy();
+    })
+
+    it('"Never Odd or Even" is a palindrome', () => {
+        expect(isPalindrome('Never Odd or Even')).toBeTruthy();
     })
 })
