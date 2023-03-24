@@ -33,4 +33,8 @@ describe('palindrome checker', () => {
     it('"Never Odd or Even" is a palindrome', () => {
         expect(isPalindrome('Never Odd or Even')).toBeTruthy();
     })
+
+    it('"Hello my friend" is a palindrome', () => {
+        expect(isPalindrome('Hello my friend')).toBeFalsy();
+    })
 })
