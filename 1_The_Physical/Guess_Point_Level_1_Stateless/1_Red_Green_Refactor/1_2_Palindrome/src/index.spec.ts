@@ -9,4 +9,12 @@ describe('palindrome checker', () => {
     it('mom is a palindrome', () => {
         expect(isPalindrome('mom')).toBeTruthy();
     })
+
+    it('mom is a palindrome', () => {
+        expect(isPalindrome('mom')).toBeTruthy();
+    })
+
+    it('wow is a palindrome', () => {
+        expect(isPalindrome('wow')).toBeTruthy();
+    })
 })

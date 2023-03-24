@@ -1,3 +1,4 @@
 export function isPalindrome(word : string): boolean {
-    return word === 'mom';
+    let reversed = word.split('').reverse().join('');
+    return word === reversed;
 }
